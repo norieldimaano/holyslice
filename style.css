@@ -196,4 +196,63 @@ body {
 
 .spacer {
   margin-bottom: 5em;
+}
+
+@media screen and (max-width: 1920px) {
+  #about {
+    padding-top: 7rem;
+  }
+  #about .left-about img {
+    margin-left: 3rem;
+  }
+  #about .right-about {
+    width: 35vw;
+  }
+  #about .right-about h1 {
+    font-size: 75px;
+  }
+  #about .right-about p {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  #service #delivery img {
+    width: 25vw;
+  }
+  #service #delivery .delivery-text {
+    padding-top: 1em;
+    font-size: 22px;
+    width: 90%;
+    margin-right: -3rem;
+  }
+  #service #pickup img {
+    width: 25vw;
+  }
+  #service #pickup .pickup-text {
+    padding-top: 1em;
+    font-size: 22px;
+    width: 90%;
+    margin-right: -3rem;
+  }
+  #footer #contact {
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+  }
+  #footer #contact h1 {
+    font-size: 40px;
+  }
+  #footer #contact input {
+    font-size: 22px;
+    margin-bottom: 2rem;
+  }
+  #footer #contact textarea {
+    font-size: 22px;
+    margin-bottom: 2rem;
+  }
+  #footer #contact button {
+    font-size: 22px;
+    margin-bottom: 2rem;
+  }
+  #footer #map {
+    margin-right: 7.8rem;
+  }
 }/*# sourceMappingURL=style.css.map */
