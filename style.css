@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
